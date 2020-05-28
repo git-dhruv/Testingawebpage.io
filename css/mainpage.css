@@ -69,6 +69,19 @@ th,td{
 	display:none;
 }
 
+.button{
+	text-align:center;
+	display:none;
+	background-color: #cfc6c6;
+  border: none;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
 
 
 #description{
@@ -81,7 +94,7 @@ th,td{
 }
 #BottomText{
 vertical-align:text-bottom;
-position:absolute;
+position:relative;
 bottom: 10px;
 
 }
