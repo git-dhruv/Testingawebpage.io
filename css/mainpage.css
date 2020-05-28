@@ -1,0 +1,87 @@
+h1{
+color:#636060;
+background-color:#cfc6c6;
+blur:2px;
+font-family:Brush Script MT;
+text-align: center;
+border: 1px solid black;
+padding-top: 30px;
+padding-bottom:10px;
+margin:20 px;
+border-radius: 15px 50px 30px 5px;
+}
+body{
+	background-color:#2b324d;
+}
+th,td{
+	color:white;
+	border: 0.5px solid #cfc6c6;
+	padding: 10px 30px 30px 30px;
+	margin: 20px;
+	border-radius:25px;
+	font-family: Verdana;
+}
+#potato{
+	width:80%;
+}
+
+#dudhi{
+	width:80%;
+}
+
+#tomato{
+	width:80%;
+}
+
+#paneer{
+	width:80%;
+}
+
+#misc{
+	width:80%;
+}
+
+#tuvar{
+	width:80%;
+}
+
+#potato_caption{
+	display:none;
+}
+
+#dudhi_caption{
+	display:none;
+}
+
+#tuvar_caption{
+	display:none;
+}
+
+#misc_caption{
+	display:none;
+}
+
+#paneer_caption{
+	display:none;
+}
+
+#tomato_caption{
+	display:none;
+}
+
+
+
+#description{
+	color:white;
+	border: 0.5px solid #cfc6c6;
+	padding: 10px 50px;
+	margin: 20px;
+	border-radius:25px;
+	font-family: Verdana;
+}
+#BottomText{
+vertical-align:text-bottom;
+position:absolute;
+bottom: 10px;
+
+}
