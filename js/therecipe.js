@@ -29,4 +29,10 @@ function showbutton(cat)
 }
 function givesuggestion(){
 	console.log(cat_new)
+	if(window.FileReader){
+		alert('Done')
+	}
+	else{
+		alert('File Reader is not supported! Use another Browser')
+	}
 }
