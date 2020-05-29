@@ -47,13 +47,16 @@ onmouseover="displaytext(this)" onmouseleave="hidetext(this)">
 <th>
 <div class="dudhi">
 <img src="https://cdn.pixabay.com/photo/2016/08/18/21/03/pumpkin-1603922_960_720.jpg" alt="Dudhi" id="dudhi" 
-onmouseover="displaytext(this)" onmouseleave="hidetext(this)">
+onmouseover="displaytext(this)" onmouseleave="hidetext(this)" onclick="showbutton(4)">
 <p id="dudhi_caption" >Dudhi</p>
 </div>
 </th>
 <!-- DUDHI OVER -->
 <th>
 <div class="paneer">
+<script src="./papaparse.min.js"></script>
+<script src="
+https://cdn.rawgit.com/mholt/PapaParse/2f1eb8c4/papaparse.min.js"></script>
 <img src="https://cdn.pixabay.com/photo/2020/03/13/20/16/paneer-tikka-4929034_960_720.jpg" alt="Paneer" id="paneer" 
 onmouseover="displaytext(this)" onmouseleave="hidetext(this)">
 <p id="paneer_caption">Paneer</p>
@@ -70,7 +73,12 @@ onmouseover="displaytext(this)" onmouseleave="hidetext(this)" onclick="showbutto
 </th>
 </table>
 <div class="button" id="submit">
-<button type="submit" onclick="givesuggestion()">GO!</button>
+<button type="submit" onclick="parse()">GO!</button>
+</div>
+<div>
+<p id='ans'>
+Yo
+</p>
 </div>
 </body>
 </html>
